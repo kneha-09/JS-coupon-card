@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#main {
+    background-color: #2348939d;
+    min-height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+#coupon {
+    height: 300px;
+    width: 600px;
+    background-color: #4256eb;
+    z-index: 100;
+    position: absolute;
+    top: 25%;
+    margin-left: 30%;
+    visibility: hidden;
+}
+
+#coupon button {
+    position: absolute;
+    margin-left:93.5%;
+    color: rgb(3, 3, 3);
+    padding: 1px 12px;
+    font-size: 25px;
+    border-style: none;
+    z-index:10;
+}
+#coupon button:hover{
+    color: white;
+    background-color: red;
+    transition: ease-in 0.3s;
+}
+
+.left2{
+    position: absolute;
+    background-color: #4256eb;
+    border-radius: 0 50% 50% 0;
+    width: 50%;
+    margin-left: 10%;
+    height: 100%;
+    z-index: 5;
+
+}
+.left3{
+    position: absolute;
+    background-color: #1228b5;
+    border-radius: 0 50% 50% 0;
+    width: 50%;
+    margin-left: 20%;
+    height: 100%;
+    z-index: 4;
+}
+.left4{
+    position: absolute;
+    background-color: #0d1a73;
+    border-radius: 0 50% 50% 0;
+    width: 50%;
+    margin-left: 30%;
+    height: 100%;
+    z-index: 3;
+}
+.left5{
+    position: absolute;
+    background-color: #111a53;
+    border-radius: 0 50% 50% 0;
+    width: 50%;
+    margin-left: 40%;
+    height: 100%;
+    z-index: 2;
+}
+.left6{
+    position: absolute;
+    background-color: #0f132d;
+    border-radius: 0 50% 50% 0;
+    width: 50%;
+    margin-left: 50%;
+    height: 100%;
+    z-index: 1;
+}
+.left6{
+    position: absolute;
+    background-color: #0f0f11;
+    border-radius: 0 0 0 0;
+    width: 40%;
+    margin-left: 60%;
+    height: 100%;
+}
+.img1{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+}
+.img2{
+    position: absolute;
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 100px 0px 0px 110px;
+
+}
+.heading,p{
+    position: absolute;
+    margin: 55px 70px;
+    padding: 3px;
+    text-align: center;
+    color: aliceblue;
+}
+.para{
+    margin-top: 150px;
+    margin-left: 1px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: bold;
+    
+}
+.para2{
+    margin: 225px 20px;
+    font-size: 18px; 
+}
+.button{
+    position: absolute;
+    /* margin-top: 245px;
+    margin-left: -120px; */
+    width: 90px;
+    height: 30px;
+    font-size: 10px;
+
+}
